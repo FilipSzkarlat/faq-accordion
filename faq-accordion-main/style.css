@@ -40,10 +40,39 @@ main {
   margin-right: 30px;
 }
 
+/* QUESTIONS */
+.question {
+  font-weight: 600;
+  border-bottom: solid 1px lightgray;
+}
+
+#question4 {
+  border: none;
+}
+
+.head-box {
+  display: flex;
+  justify-content: space-between;
+}
+
+.head-box p {
+  width: 70%;
+}
+
+p {
+  padding: 20px 0;
+}
+
+.answer {
+  display: none;
+  font-weight: 400;
+  opacity: 0.6;
+  font-size: 0.9rem;
+  line-height: 20px;
+}
+
 /* FOOTER */
 footer {
-  position: absolute;
-  bottom: 10px;
   text-align: center;
   margin: 0 30px;
 }
