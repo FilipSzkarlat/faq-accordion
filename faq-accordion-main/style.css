@@ -59,12 +59,16 @@ main {
   width: 70%;
 }
 
+.head-box:hover {
+  color: hsl(297, 80%, 69%);
+  cursor: pointer;
+}
+
 p {
   padding: 20px 0;
 }
 
 .answer {
-  display: none;
   font-weight: 400;
   opacity: 0.6;
   font-size: 0.9rem;
