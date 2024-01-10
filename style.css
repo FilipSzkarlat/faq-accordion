@@ -88,6 +88,7 @@ footer {
   }
 
   main {
+    background-size: 100vw;
     background-image: url(assets/images/background-pattern-desktop.svg);
   }
 
